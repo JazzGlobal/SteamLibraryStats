@@ -1,0 +1,17 @@
+.root {
+    -fx-background: #948a8a;
+}
+.button {
+    -fx-background-color: #7a7373;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-width: .5px;
+    -fx-min-width: 200px;
+    -fx-min-height: 80px;
+    }
+.button:hover {
+    -fx-background-color: #5e5858
+}
+.button:pressed {
+    -fx-color: #ff0000
+}

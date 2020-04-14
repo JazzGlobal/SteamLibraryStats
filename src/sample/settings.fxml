@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TilePane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <HBox>
+        <children>
+            <Button text="Home" onAction="#homeButtonOnClick"></Button>
+            <Button text="Games" onAction="#gamesButtonOnClick"></Button>
+            <Button text="Profile" onAction="#profileButtonOnClick"></Button>
+            <Button text="Settings" onAction="#settingsButtonOnClick"></Button>
+        </children>
+    </HBox>
+</TilePane>
